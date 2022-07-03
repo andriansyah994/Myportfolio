@@ -404,10 +404,6 @@ img{
     border-radius: 50%;
     justify-self: center;
     align-self: center;
-    -webkit-border-radius: .5rem;
-    -moz-border-radius: .5rem;
-    -ms-border-radius: .5rem;
-    -o-border-radius: .5rem;
 }
 .about__description{
     text-align: center;
