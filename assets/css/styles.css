@@ -94,6 +94,7 @@ body.dark-theme{
     color: var(--title-color);
     margin-right: var(--mb-1);
     cursor: pointer;
+    transition: background 0.5s linear, color 0.5s linear;
 }
 .change-theme:hover{
     color: var(--first-color);
@@ -104,10 +105,12 @@ body.dark-theme{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    transition: background 0.5s linear, color 0.5s linear;
 }
 html {
     overflow-x: hidden;
     scroll-behavior: smooth;
+    transition: background 0.5s linear, color 0.5s linear;
 }
 body {
     overflow-x: hidden;
